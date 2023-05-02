@@ -1,0 +1,5 @@
+"0","# Outliers will be removed "
+"0","person_age_out <- which(data$person_age > 100) "
+"0","person_income_out <- which(data$person_income > 4000000)"
+"0","emp_length_out <- which(data$person_emp_length > 60)"
+"0","data_cr <- data[-c(person_age_out,person_income_out,emp_length_out),]"

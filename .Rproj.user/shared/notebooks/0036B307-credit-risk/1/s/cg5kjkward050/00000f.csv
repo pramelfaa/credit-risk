@@ -1,0 +1,2 @@
+"0","library(readr)"
+"0","data <- read.csv(""credit_risk_dataset.csv"")"

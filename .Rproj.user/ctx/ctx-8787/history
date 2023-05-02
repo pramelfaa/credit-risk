@@ -1,0 +1,3 @@
+library(readr)
+credit_risk_dataset <- read_csv("credit_risk_dataset.csv")
+View(credit_risk_dataset)

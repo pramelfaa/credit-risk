@@ -1,0 +1,26 @@
+{
+    "type": [
+        2,
+        0,
+        1,
+        0,
+        1,
+        2,
+        2,
+        0,
+        1,
+        2
+    ],
+    "data": [
+        "\nR version 4.3.0 (2023-04-21) -- \"Already Tomorrow\"\nCopyright (C) 2023 The R Foundation for Statistical Computing\nPlatform: x86_64-pc-linux-gnu (64-bit)\n\nR is free software and comes with ABSOLUTELY NO WARRANTY.\nYou are welcome to redistribute it under certain conditions.\nType 'license()' or 'licence()' for distribution details.\n\nR is a collaborative project with many contributors.\nType 'contributors()' for more information and\n'citation()' on how to cite R or R packages in publications.\n\nType 'demo()' for some demos, 'help()' for on-line help, or\n'help.start()' for an HTML browser interface to help.\nType 'q()' to quit R.\n\n",
+        "> ",
+        "library(readr)",
+        "> ",
+        "credit_risk_dataset <- read_csv(\"credit_risk_dataset.csv\")",
+        "\rindexing credit_risk_dataset.csv [==================] 91.20GB/s, eta:  0s\r                                                                         \r\u001B[1mRows: \u001B[22m\u001B[34m32581\u001B[39m \u001B[1mColumns: \u001B[22m\u001B[34m12\u001B[39m\n\u001B[36m──\u001B[39m \u001B[1mColumn specification\u001B[22m \u001B[36m─────────────────────────────────────────────────\u001B[39m\n\u001B[1mDelimiter:\u001B[22m \",\"\n\u001B[31mchr\u001B[39m (4): person_home_ownership, loan_intent, loan_grade, cb_person_de...\n\u001B[32mdbl\u001B[39m (8): person_age, person_income, person_emp_length, loan_amnt, loa...\n",
+        "\n\u001B[36mℹ\u001B[39m Use `spec()` to retrieve the full column specification for this data.\n\u001B[36mℹ\u001B[39m Specify the column types or set `show_col_types = FALSE` to quiet this message.\n",
+        "> ",
+        "View(credit_risk_dataset)",
+        "\nRestarting R session...\n\n"
+    ]
+}

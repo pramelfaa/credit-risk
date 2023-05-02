@@ -1,0 +1,4 @@
+"0","prob_loan <- predict(model_loan_final, type= ""response"", newdata = test)"
+"0","pred_loan <- ifelse(prob_loan > 0.5, ""non default"", ""default"")"
+"0","test_loan <- data.frame(pred_loan,test$loan_status)"
+"0","head(test_loan)"

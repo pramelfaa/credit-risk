@@ -1,0 +1,2 @@
+"0","# Encode `loan_status` 0 == non default, 1 == default "
+"0","   data$loan_status <-  ifelse(data$loan_status == 0,""non default"",""default"")"

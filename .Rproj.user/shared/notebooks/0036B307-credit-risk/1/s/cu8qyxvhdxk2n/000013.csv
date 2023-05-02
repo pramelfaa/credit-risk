@@ -1,0 +1,4 @@
+"0","library(DT)"
+"0","renderDT(data,options=list(pageLength=10,scrollX='400px'),filter='top')"
+"1","<shiny.render.function> 
+"

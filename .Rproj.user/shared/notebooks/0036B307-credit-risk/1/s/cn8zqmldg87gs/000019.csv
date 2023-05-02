@@ -1,0 +1,5 @@
+"0","fig_loan <- ggplot(data_cr,aes(x=loan_status, fill=loan_status)) + geom_bar() + "
+"0","               geom_text(stat = ""count"", aes(label = after_stat(count)), "
+"0","               colour = ""white"", size = 3.5, position=position_stack(vjust=0.5)) + "
+"0","               ggtitle(""Figure 5: Loan Status"")"
+"0","fig_loan"
