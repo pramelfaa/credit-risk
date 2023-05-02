@@ -1,6 +1,5 @@
 ---
 title: "Credit Risk Modelling: Loan Defaults Prediction"
-runtime: shiny
 output: 
   html_document:
     toc: true
@@ -31,7 +30,7 @@ body {
 ```
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(warning = FALSE, message = FALSE, echo = TRUE)
 ```
 
 # Introduction
@@ -48,6 +47,10 @@ data <- read.csv("credit_risk_dataset.csv")
 
 ```{r echo=TRUE, message=FALSE}
 library(DT)
+```
+
+
+```{r echo=TRUE, message=FALSE}
 renderDT(data,options=list(pageLength=10,scrollX='400px'),filter='top')
 ```
 
@@ -247,7 +250,7 @@ split <- sample(nrow(data_cr),size=nrow(data_cr)*0.8)
 train <- data_cr[split,]
 head(train)
 test <- data_cr[-split,]
-renderDT(test,options=list(pageLength=10,scrollX='400px'),filter='top')
+head(test)
 ```
 
 ## Building model
@@ -303,14 +306,6 @@ summary(model_loan_final)
 ```
 Model final loan loads eight predictor variables can be said as best model for further analysis due to meet parameter significance test simultaneously and partially.
 
-##### Goodness of Fit Test
-The goodness of fit aims to see whether the model is feasible or not. Using null hypothesis, there is no significant difference between the observed and the possible prediction results of model. Alternative hypothesis, there is significant difference between the observed and the possible prediction results of model.
-
-```{r message=FALSE, echo=TRUE}
-library(generalhoslem)
-loan_model<- model.frame(model_loan_final)
-logitgof(loan_model$loan_status, fitted(model_loan_final))
-```
 # Model Evaluation {.tabset}
 ## Odd Ratio
 Calculation odd ratio is used to obtain model interpretation.
