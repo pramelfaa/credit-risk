@@ -303,14 +303,6 @@ summary(model_loan_final)
 ```
 Model final loan loads eight predictor variables can be said as best model for further analysis due to meet parameter significance test simultaneously and partially.
 
-##### Goodness of Fit Test
-The goodness of fit aims to see whether the model is feasible or not. Using null hypothesis, there is no significant difference between the observed and the possible prediction results of model. Alternative hypothesis, there is significant difference between the observed and the possible prediction results of model.
-
-```{r message=FALSE, echo=TRUE}
-library(generalhoslem)
-loan_model<- model.frame(model_loan_final)
-logitgof(loan_model$loan_status, fitted(model_loan_final))
-```
 # Model Evaluation {.tabset}
 ## Odd Ratio
 Calculation odd ratio is used to obtain model interpretation.
