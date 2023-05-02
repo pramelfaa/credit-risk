@@ -1,4 +1,0 @@
-"0","fig_3 <- ggplot(data,aes(x=person_emp_length)) +"
-"0","            geom_histogram(aes(y=after_stat(density)),color=""skyblue"",fill=""skyblue"") +"
-"0","            geom_density(alpha=0.2,fill=""skyblue"") + ggtitle(""Figure 3: The density of employment length"")"
-"0","fig_3"

@@ -1,4 +1,0 @@
-"0","fig_2 <- ggplot(data,aes(x=person_income)) + "
-"0","            geom_histogram(aes(y=after_stat(density)),color=""skyblue"",fill=""skyblue"") +"
-"0","            geom_density(alpha=0.2,fill=""skyblue"") + ggtitle(""Figure 2: The density of annual income person"")"
-"0","fig_2"

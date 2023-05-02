@@ -1,7 +1,0 @@
-"0","# Relation between loan intent with loan status"
-"0","fig_int <- ggplot(data_cr,aes(x=loan_intent, fill=loan_status)) + geom_bar() + "
-"0","              geom_text(stat = ""count"", aes(label = after_stat(count)), "
-"0","              colour = ""white"", size = 2.5, position=position_stack(vjust=0.5)) + "
-"0","              theme(axis.text.x = element_text(angle = 90)) +"
-"0","              ggtitle(""Figure 8: Loan intent by loan status"")"
-"0","fig_int"

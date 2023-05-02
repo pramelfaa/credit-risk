@@ -1,4 +1,0 @@
-"0","test <- data_cr[-split,]"
-"0","renderDT(test,options=list(pageLength=10,scrollX='400px'),filter='top')"
-"1","<shiny.render.function> 
-"

@@ -1,2 +1,0 @@
-"0","#`loan_int_rate`, NaN values are replaced with the the median of the column values "
-"0","data$loan_int_rate[is.na(data$loan_int_rate)] <- median(data$loan_int_rate,na.rm=TRUE)"

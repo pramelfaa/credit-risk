@@ -1,9 +1,9 @@
 {
     "id": "B99DEE1C",
-    "path": "/cloud/project/credit-risk.Rmd",
-    "project_path": "credit-risk.Rmd",
+    "path": "/cloud/project/credit risk.Rmd",
+    "project_path": "credit risk.Rmd",
     "type": "r_markdown",
-    "hash": "3142673094",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1683014357432.0,
@@ -22,7 +22,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1683021210013,
+    "last_content_update": 1683021144,
     "read_only": false,
     "read_only_alternatives": []
 }
