@@ -45,15 +45,10 @@ library(readr)
 data <- read.csv("credit_risk_dataset.csv")
 ```
 
-```{r echo=TRUE, message=FALSE}
+```{r warning = FALSE, message = FALSE, echo=TRUE}
 library(DT)
+datatable(data,options=list(pageLength=10,scrollX='400px'),filter='top')
 ```
-
-
-```{r echo=TRUE, message=FALSE}
-renderDT(data,options=list(pageLength=10,scrollX='400px'),filter='top')
-```
-
 
 ##### Description data
 -   **`person_age`**: age
