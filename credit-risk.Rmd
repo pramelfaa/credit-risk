@@ -1,5 +1,6 @@
 ---
 title: "Credit Risk Modelling: Loan Defaults Prediction"
+runtime: shiny
 output: 
   html_document:
     toc: true
@@ -47,7 +48,7 @@ data <- read.csv("credit_risk_dataset.csv")
 
 ```{r echo=TRUE, message=FALSE}
 library(DT)
-datatable(data,options=list(pageLength=10,scrollX='400px'),filter='top')
+renderDT(data,options=list(pageLength=10,scrollX='400px'),filter='top')
 ```
 
 
